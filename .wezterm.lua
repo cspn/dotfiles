@@ -6,6 +6,7 @@ local config = wezterm.config_builder()
 
 -- Set configuration options
 config.font_size = 13
+config.color_scheme = 'Github Light (Gogh)'
 
 -- Finally, return the configuration to wezterm:
 return config
