@@ -10,7 +10,7 @@ config.color_scheme = 'Github Light (Gogh)'
 
 -- Set default shell to PowerShell on Windows
 if string.find(wezterm.target_triple, "windows") ~= nil then
-  config.default_prog = { "powershell.exe" }
+  config.default_prog = { "powershell.exe", "/nologo" }
 end
 
 -- Finally, return the configuration to wezterm:
