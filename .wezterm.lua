@@ -9,7 +9,7 @@ config.font_size = 13
 config.color_scheme = 'Github Light (Gogh)'
 
 -- Set default shell to PowerShell on Windows
-if string.find(wezterm.target_triple, "windows") then
+if string.find(wezterm.target_triple, "windows") ~= nil then
   config.default_prog = { "powershell.exe" }
 end
 
