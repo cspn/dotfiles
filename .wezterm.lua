@@ -6,7 +6,7 @@ local config = wezterm.config_builder()
 
 -- Set configuration options
 config.font_size = 13
-config.color_scheme = 'Github Light (Gogh)'
+config.color_scheme = 'Dark+'
 
 -- Set default shell to PowerShell on Windows
 if string.find(wezterm.target_triple, "windows") ~= nil then
